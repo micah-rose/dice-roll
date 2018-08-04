@@ -148,7 +148,9 @@ public class DiceFinal extends JFrame
 				int roll = rand.nextInt(6)+1;
 				
 				if(chckbxBatch.isSelected())
-				{		
+				{	
+					lblDice.setIcon(new ImageIcon(DiceFinal.class.getResource("/diceFinal/bunch-of-dice.png")));
+					
 					String num = txtBatch.getText();
 					int numRoll = Integer.parseInt(num);
 					
