@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dice Roll</title>
+    <link type="text/css" rel="stylesheet" href="/css/dice.css" />
+    <script src="/js/dice.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Dice Statistics</h2>>
+    </div>
+    <div class="die-counts">
+      <form >
+        <div id="one">1: <input id="ones-box" type="text" readonly/><br /></div>
+        <div id="two">2: <input id="twos-box" type="text" readonly/><br /></div>
+        <div id="two">3: <input id="threes-box" type="text" readonly/><br /></div>
+        <div id="two">4: <input id="fours-box" type="text" readonly/><br /></div>
+        <div id="two">5: <input id="fives-box" type="text" readonly/><br /></div>
+        <div id="two">6: <input id="sixes-box" type="text" readonly/><br /></div>
+      </form>
+      <div class="checkbox">
+        <input onchange="dieBatch();" id="chkbx" type="checkbox" />Batch<br />
+      </div>
+      <div class="text-box">
+        <form><input id="die-batch" type="text" value="100" readonly/><br /></form>
+      </div>
+      <button onclick="rollDie();" type="button">Roll Die</button> 
+      <button onclick="resetRolls();" type="button">Reset</button>
+    </div>
+    <div class="images"><img id="dice-image" src="img/question.png" /></div>
+  </body>
+</html>
