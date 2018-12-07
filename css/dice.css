@@ -1,5 +1,83 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
+body {
+  width: 560px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: solid 7px gray;
+  font-family: stencil;
+  color: white;
+}
+
+.main-content {
+  background-color: black;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.die-counts div {
+  font-family: stencil;
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+
+input[type="text"] {
+  font-family: stencil;
+  font-size: 25px;
+  margin-left: 40px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+.left-content {
+  margin-left: 15px;
+  float: left;
+}
+
+.images img {
+  clear: both;
+  padding: 10px;
+  width: 350px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.checkbox {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+#die-batch {
+  float: right;
+  margin-right: 15px;
+  margin-top: -30px;
+  font-family: stencil;
+  font-size: 25px;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  clear: both;
+  background-color: lightgrey;
+  font-family: stencil;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+}
