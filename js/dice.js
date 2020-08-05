@@ -57,32 +57,32 @@ function rollDie() {
   } else {
     if (rand == 1) {
       dice1++;
-      document.getElementById("dice-image").src = "/img/die-black-1.png";
+      document.getElementById("dice-image").src = "img/die-black-1.png";
       document.getElementById("ones-box").value = dice1;
     }
     if (rand == 2) {
       dice2++;
-      document.getElementById("dice-image").src = "/img/die-black-2.png";
+      document.getElementById("dice-image").src = "img/die-black-2.png";
       document.getElementById("twos-box").value = dice2;
     }
     if (rand == 3) {
       dice3++;
-      document.getElementById("dice-image").src = "/img/die-black-3.png";
+      document.getElementById("dice-image").src = "img/die-black-3.png";
       document.getElementById("threes-box").value = dice3;
     }
     if (rand == 4) {
       dice4++;
-      document.getElementById("dice-image").src = "/img/die-black-4.png";
+      document.getElementById("dice-image").src = "img/die-black-4.png";
       document.getElementById("fours-box").value = dice4;
     }
     if (rand == 5) {
       dice5++;
-      document.getElementById("dice-image").src = "/img/die-black-5.png";
+      document.getElementById("dice-image").src = "img/die-black-5.png";
       document.getElementById("fives-box").value = dice5;
     }
     if (rand == 6) {
       dice6++;
-      document.getElementById("dice-image").src = "/img/die-black-6.png";
+      document.getElementById("dice-image").src = "img/die-black-6.png";
       document.getElementById("sixes-box").value = dice6;
     }
   }
